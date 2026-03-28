@@ -41,7 +41,7 @@ Based on these characteristics of the dataset, some high level summary of the da
 The most common destination of the driver was 
 'No Urgent Place', driving 'Alone' under 'Sunny' weather with temperature near 80 around 6 PM 
 going to 'Coffee House' of '21' years of age and 'Married Partner' status, with education as 'Some college - no degree', 'Unemployed', earning in the range of '$25000 - $37499', 
-either 'never' going to Bar, going to CoffeeHouse 'less1', taking CarryAway '1~3' times, going '1~3' times RestaurantLessThan20', Less1 to Restaurant20To50m, 
+either 'never' going to Bar, going to CoffeeHouse 'less1', taking CarryAway 1~3 times, going 1~3 times RestaurantLessThan20', Less1 to Restaurant20To50m, 
 always accepting coupon GEQ 5 min driving distance and mostly rejecting when driving distance is GEQ 15 or 25 min away 
 and has higher acceptance rate when the driving direction is opposite compared to same.
 
