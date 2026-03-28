@@ -12,11 +12,11 @@ The Driver characteristics is divided into 13 attributes:
 6.	occupation ( 25 )  ['Unemployed' 'Architecture & Engineering' 'Student'  'Education&Training&Library' 'Healthcare Support'  'Healthcare Practitioners & Technical' 'Sales & Related' 'Management'  'Arts Design Entertainment Sports & Media' 'Computer & Mathematical'  'Life Physical Social Science' 'Personal Care & Service'  'Community & Social Services' 'Office & Administrative Support'  'Construction & Extraction' 'Legal' 'Retired'  'Installation Maintenance & Repair' 'Transportation & Material Moving'  'Business & Financial' 'Protective Service'  'Food Preparation & Serving Related' 'Production Occupations'  'Building & Grounds Cleaning & Maintenance', 'Farming Fishing & Forestry']
 7.	income ( 9 )  ['$37500 - $49999' '$62500 - $74999' '$12500 - $24999' '$75000 - $87499'  '$50000 - $62499' '$25000 - $37499' '$100000 or More' '$87500 - $99999'  'Less than $12500']
 8.	car ( 6 )  [nan 'Scooter and motorcycle' 'crossover' 'Mazda5' 'do not drive'  'Car that is too old to install Onstar :D']
-9.	Bar ( 6 )  ['never' 'less1' '1~3' 'gt8' nan '4~8']
-10.	CoffeeHouse ( 6 )  ['never' 'less1' '4~8' '1~3' 'gt8' nan]
-11.	CarryAway ( 6 )  [nan '4~8' '1~3' 'gt8' 'less1' 'never']
-12.	RestaurantLessThan20 ( 6 )  ['4~8' '1~3' 'less1' 'gt8' nan 'never']
-13.	Restaurant20To50 ( 6 )  ['1~3' 'less1' 'never' 'gt8' '4~8' nan]
+9.	Bar ( 6 )  ['never' 'less1' '1-3' 'gt8' nan '4-8']
+10.	CoffeeHouse ( 6 )  ['never' 'less1' '4-8' '1-3' 'gt8' nan]
+11.	CarryAway ( 6 )  [nan '4-8' '1-3' 'gt8' 'less1' 'never']
+12.	RestaurantLessThan20 ( 6 )  ['4~8' '1-3' 'less1' 'gt8' nan 'never']
+13.	Restaurant20To50 ( 6 )  ['1-3' 'less1' 'never' 'gt8' '4-8' nan]
 
 * Driving Contextual Attributes (Number and Category of unique Values):
 1.	destination ( 3 )  ['No Urgent Place' 'Home' 'Work']
@@ -41,7 +41,7 @@ Based on these characteristics of the dataset, some high level summary of the da
 The most common destination of the driver was 
 'No Urgent Place', driving 'Alone' under 'Sunny' weather with temperature near 80 around 6 PM 
 going to 'Coffee House' of '21' years of age and 'Married Partner' status, with education as 'Some college - no degree', 'Unemployed', earning in the range of '$25000 - $37499', 
-either 'never' going to Bar, going to CoffeeHouse 'less1', taking CarryAway 1~3 times, going 1~3 times RestaurantLessThan20', Less1 to Restaurant20To50m, 
+either 'never' going to Bar, going to CoffeeHouse 'less1', taking CarryAway 1-3 times, going 1-3 times RestaurantLessThan20', Less1 to Restaurant20To50m, 
 always accepting coupon GEQ 5 min driving distance and mostly rejecting when driving distance is GEQ 15 or 25 min away 
 and has higher acceptance rate when the driving direction is opposite compared to same.
 
